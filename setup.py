@@ -15,6 +15,7 @@ setuptools.setup(
     url = 'https://github.com/andys0975/google-scholar-crawler',
     download_url = 'https://github.com/andys0975/google-scholar-crawler/tarball/master',
     packages=setuptools.find_packages(),
+    py_modules=['Crawler', 'ParseOut'],
     keywords = ['Google Scholar Crawler'],
     classifiers = [
         'Development Status :: 3 - Alpha',
