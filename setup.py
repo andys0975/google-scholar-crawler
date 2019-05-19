@@ -13,6 +13,7 @@ setuptools.setup(
     license='Unlicense',
 
     url = 'https://github.com/andys0975/google-scholar-crawler',
+    download_url = 'https://github.com/andys0975/google-scholar-crawler/tarball/master',
     packages=setuptools.find_packages(),
     keywords = ['Google Scholar Crawler'],
     classifiers = [
